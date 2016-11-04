@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCB641841DB9FE7A003581A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB641831DB9FE7A003581A4 /* AppDelegate.swift */; };
+		FCB641861DB9FE7A003581A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB641851DB9FE7A003581A4 /* ViewController.swift */; };
+		FCB6418B1DB9FE7A003581A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB6418A1DB9FE7A003581A4 /* Assets.xcassets */; };
+		FCB6418E1DB9FE7A003581A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB6418C1DB9FE7A003581A4 /* LaunchScreen.storyboard */; };
+		FCB641991DB9FE7A003581A4 /* VoiceRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB641981DB9FE7A003581A4 /* VoiceRecordTests.swift */; };
+		FCB641A41DB9FE7A003581A4 /* VoiceRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB641A31DB9FE7A003581A4 /* VoiceRecordUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCB641951DB9FE7A003581A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB641781DB9FE7A003581A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB6417F1DB9FE7A003581A4;
+			remoteInfo = VoiceRecord;
+		};
+		FCB641A01DB9FE7A003581A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCB641781DB9FE7A003581A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCB6417F1DB9FE7A003581A4;
+			remoteInfo = VoiceRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCB641801DB9FE7A003581A4 /* VoiceRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB641831DB9FE7A003581A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCB641851DB9FE7A003581A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCB6418A1DB9FE7A003581A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCB6418D1DB9FE7A003581A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCB6418F1DB9FE7A003581A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB641941DB9FE7A003581A4 /* VoiceRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB641981DB9FE7A003581A4 /* VoiceRecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordTests.swift; sourceTree = "<group>"; };
+		FCB6419A1DB9FE7A003581A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB6419F1DB9FE7A003581A4 /* VoiceRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB641A31DB9FE7A003581A4 /* VoiceRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordUITests.swift; sourceTree = "<group>"; };
+		FCB641A51DB9FE7A003581A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCB6417D1DB9FE7A003581A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB641911DB9FE7A003581A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB6419C1DB9FE7A003581A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCB641771DB9FE7A003581A4 = {
+			isa = PBXGroup;
+			children = (
+				FCB641821DB9FE7A003581A4 /* VoiceRecord */,
+				FCB641971DB9FE7A003581A4 /* VoiceRecordTests */,
+				FCB641A21DB9FE7A003581A4 /* VoiceRecordUITests */,
+				FCB641811DB9FE7A003581A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCB641811DB9FE7A003581A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCB641801DB9FE7A003581A4 /* VoiceRecord.app */,
+				FCB641941DB9FE7A003581A4 /* VoiceRecordTests.xctest */,
+				FCB6419F1DB9FE7A003581A4 /* VoiceRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCB641821DB9FE7A003581A4 /* VoiceRecord */ = {
+			isa = PBXGroup;
+			children = (
+				FCB641831DB9FE7A003581A4 /* AppDelegate.swift */,
+				FCB641851DB9FE7A003581A4 /* ViewController.swift */,
+				FCB6418A1DB9FE7A003581A4 /* Assets.xcassets */,
+				FCB6418C1DB9FE7A003581A4 /* LaunchScreen.storyboard */,
+				FCB6418F1DB9FE7A003581A4 /* Info.plist */,
+			);
+			path = VoiceRecord;
+			sourceTree = "<group>";
+		};
+		FCB641971DB9FE7A003581A4 /* VoiceRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB641981DB9FE7A003581A4 /* VoiceRecordTests.swift */,
+				FCB6419A1DB9FE7A003581A4 /* Info.plist */,
+			);
+			path = VoiceRecordTests;
+			sourceTree = "<group>";
+		};
+		FCB641A21DB9FE7A003581A4 /* VoiceRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB641A31DB9FE7A003581A4 /* VoiceRecordUITests.swift */,
+				FCB641A51DB9FE7A003581A4 /* Info.plist */,
+			);
+			path = VoiceRecordUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCB6417F1DB9FE7A003581A4 /* VoiceRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB641A81DB9FE7A003581A4 /* Build configuration list for PBXNativeTarget "VoiceRecord" */;
+			buildPhases = (
+				FCB6417C1DB9FE7A003581A4 /* Sources */,
+				FCB6417D1DB9FE7A003581A4 /* Frameworks */,
+				FCB6417E1DB9FE7A003581A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRecord;
+			productName = VoiceRecord;
+			productReference = FCB641801DB9FE7A003581A4 /* VoiceRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCB641931DB9FE7A003581A4 /* VoiceRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB641AB1DB9FE7A003581A4 /* Build configuration list for PBXNativeTarget "VoiceRecordTests" */;
+			buildPhases = (
+				FCB641901DB9FE7A003581A4 /* Sources */,
+				FCB641911DB9FE7A003581A4 /* Frameworks */,
+				FCB641921DB9FE7A003581A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB641961DB9FE7A003581A4 /* PBXTargetDependency */,
+			);
+			name = VoiceRecordTests;
+			productName = VoiceRecordTests;
+			productReference = FCB641941DB9FE7A003581A4 /* VoiceRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCB6419E1DB9FE7A003581A4 /* VoiceRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCB641AE1DB9FE7A003581A4 /* Build configuration list for PBXNativeTarget "VoiceRecordUITests" */;
+			buildPhases = (
+				FCB6419B1DB9FE7A003581A4 /* Sources */,
+				FCB6419C1DB9FE7A003581A4 /* Frameworks */,
+				FCB6419D1DB9FE7A003581A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCB641A11DB9FE7A003581A4 /* PBXTargetDependency */,
+			);
+			name = VoiceRecordUITests;
+			productName = VoiceRecordUITests;
+			productReference = FCB6419F1DB9FE7A003581A4 /* VoiceRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCB641781DB9FE7A003581A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Hemisphere;
+				TargetAttributes = {
+					FCB6417F1DB9FE7A003581A4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FCB641931DB9FE7A003581A4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCB6417F1DB9FE7A003581A4;
+					};
+					FCB6419E1DB9FE7A003581A4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCB6417F1DB9FE7A003581A4;
+					};
+				};
+			};
+			buildConfigurationList = FCB6417B1DB9FE7A003581A4 /* Build configuration list for PBXProject "VoiceRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCB641771DB9FE7A003581A4;
+			productRefGroup = FCB641811DB9FE7A003581A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCB6417F1DB9FE7A003581A4 /* VoiceRecord */,
+				FCB641931DB9FE7A003581A4 /* VoiceRecordTests */,
+				FCB6419E1DB9FE7A003581A4 /* VoiceRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCB6417E1DB9FE7A003581A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB6418E1DB9FE7A003581A4 /* LaunchScreen.storyboard in Resources */,
+				FCB6418B1DB9FE7A003581A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB641921DB9FE7A003581A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB6419D1DB9FE7A003581A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCB6417C1DB9FE7A003581A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB641861DB9FE7A003581A4 /* ViewController.swift in Sources */,
+				FCB641841DB9FE7A003581A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB641901DB9FE7A003581A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB641991DB9FE7A003581A4 /* VoiceRecordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB6419B1DB9FE7A003581A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB641A41DB9FE7A003581A4 /* VoiceRecordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCB641961DB9FE7A003581A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB6417F1DB9FE7A003581A4 /* VoiceRecord */;
+			targetProxy = FCB641951DB9FE7A003581A4 /* PBXContainerItemProxy */;
+		};
+		FCB641A11DB9FE7A003581A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCB6417F1DB9FE7A003581A4 /* VoiceRecord */;
+			targetProxy = FCB641A01DB9FE7A003581A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCB6418C1DB9FE7A003581A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCB6418D1DB9FE7A003581A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCB641A61DB9FE7A003581A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCB641A71DB9FE7A003581A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCB641A91DB9FE7A003581A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.VoiceRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCB641AA1DB9FE7A003581A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceRecord/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.VoiceRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FCB641AC1DB9FE7A003581A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoiceRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.VoiceRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceRecord.app/VoiceRecord";
+			};
+			name = Debug;
+		};
+		FCB641AD1DB9FE7A003581A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoiceRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.VoiceRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceRecord.app/VoiceRecord";
+			};
+			name = Release;
+		};
+		FCB641AF1DB9FE7A003581A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VoiceRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.VoiceRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VoiceRecord;
+			};
+			name = Debug;
+		};
+		FCB641B01DB9FE7A003581A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VoiceRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.VoiceRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VoiceRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCB6417B1DB9FE7A003581A4 /* Build configuration list for PBXProject "VoiceRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB641A61DB9FE7A003581A4 /* Debug */,
+				FCB641A71DB9FE7A003581A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCB641A81DB9FE7A003581A4 /* Build configuration list for PBXNativeTarget "VoiceRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB641A91DB9FE7A003581A4 /* Debug */,
+				FCB641AA1DB9FE7A003581A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCB641AB1DB9FE7A003581A4 /* Build configuration list for PBXNativeTarget "VoiceRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB641AC1DB9FE7A003581A4 /* Debug */,
+				FCB641AD1DB9FE7A003581A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCB641AE1DB9FE7A003581A4 /* Build configuration list for PBXNativeTarget "VoiceRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB641AF1DB9FE7A003581A4 /* Debug */,
+				FCB641B01DB9FE7A003581A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCB641781DB9FE7A003581A4 /* Project object */;
+}

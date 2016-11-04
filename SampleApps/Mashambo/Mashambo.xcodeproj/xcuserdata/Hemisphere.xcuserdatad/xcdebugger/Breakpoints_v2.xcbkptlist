@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WinnerViewController.swift"
+            timestampString = "499007840.701793"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "Type"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mashambo.WinnerViewController.__deallocating_deinit"
+                  moduleName = "Mashambo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hemisphere/Desktop/SampleApps/FoodTracker/FoodTracker/Mashambo/WinnerViewController.swift"
+                  timestampString = "499000813.432493"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mashambo.WinnerViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Mashambo.WinnerViewController"
+                  moduleName = "Mashambo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hemisphere/Desktop/SampleApps/FoodTracker/FoodTracker/Mashambo/WinnerViewController.swift"
+                  timestampString = "499000813.438519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mashambo.WinnerViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Mashambo.WinnerViewController"
+                  moduleName = "Mashambo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hemisphere/Desktop/SampleApps/FoodTracker/FoodTracker/Mashambo/WinnerViewController.swift"
+                  timestampString = "499000813.442311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mashambo.WinnerViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Mashambo.WinnerViewController&gt;"
+                  moduleName = "Mashambo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hemisphere/Desktop/SampleApps/FoodTracker/FoodTracker/Mashambo/WinnerViewController.swift"
+                  timestampString = "499000813.444667"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mashambo.WinnerViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Mashambo.WinnerViewController&gt;"
+                  moduleName = "Mashambo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Hemisphere/Desktop/SampleApps/FoodTracker/FoodTracker/Mashambo/WinnerViewController.swift"
+                  timestampString = "499000813.446587"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
