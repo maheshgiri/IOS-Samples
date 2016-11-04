@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11535.1" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8zN-AI-Qlg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11523"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="pb9-Vb-dVx">
+            <objects>
+                <navigationController id="8zN-AI-Qlg" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="duV-Vh-2lc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="23u-d4-Gqk" kind="relationship" relationship="rootViewController" id="2R8-ZB-y24"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KsN-dH-lSM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-561" y="-261"/>
+        </scene>
+        <!--Main Screen-->
+        <scene sceneID="9Gb-hR-1Ab">
+            <objects>
+                <viewController id="23u-d4-Gqk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="95Y-ew-Ccy"/>
+                        <viewControllerLayoutGuide type="bottom" id="DZe-R3-BQd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Whe-OG-c6L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HEo-qB-Vlo">
+                                <rect key="frame" x="67" y="134" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="1Fq-Wv-uDF"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3x2-oZ-QrI">
+                                <rect key="frame" x="100" y="371" width="174" height="30"/>
+                                <state key="normal" title="Lead through me to get it"/>
+                                <connections>
+                                    <segue destination="gxk-9q-7NX" kind="show" id="xS3-Yr-bmd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZy-UY-uPF">
+                                <rect key="frame" x="66" y="439" width="243" height="30"/>
+                                <state key="normal" title="Leag through me to get it and show"/>
+                                <connections>
+                                    <segue destination="nlB-4w-zwR" kind="show" id="l4A-Gt-Ljo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HEo-qB-Vlo" firstAttribute="top" secondItem="95Y-ew-Ccy" secondAttribute="bottom" constant="70" id="4Fb-3W-Kwq"/>
+                            <constraint firstItem="3x2-oZ-QrI" firstAttribute="leading" secondItem="PZy-UY-uPF" secondAttribute="leading" constant="34" id="6nP-44-ELu"/>
+                            <constraint firstItem="DZe-R3-BQd" firstAttribute="top" secondItem="PZy-UY-uPF" secondAttribute="bottom" constant="198" id="8Mn-am-M7a"/>
+                            <constraint firstItem="PZy-UY-uPF" firstAttribute="top" secondItem="3x2-oZ-QrI" secondAttribute="bottom" constant="38" id="Wft-n5-MOv"/>
+                            <constraint firstItem="3x2-oZ-QrI" firstAttribute="leading" secondItem="Whe-OG-c6L" secondAttribute="leading" constant="100" id="qnZ-fE-VUm"/>
+                            <constraint firstItem="HEo-qB-Vlo" firstAttribute="centerX" secondItem="Whe-OG-c6L" secondAttribute="centerX" id="szb-II-PTX"/>
+                            <constraint firstItem="HEo-qB-Vlo" firstAttribute="leading" secondItem="Whe-OG-c6L" secondAttribute="leadingMargin" constant="51" id="xaH-Dj-D12"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main Screen" id="oba-6Y-Tq9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9oQ-jd-RjP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="-261"/>
+        </scene>
+        <!--Main Screen-->
+        <scene sceneID="tjx-0N-B0E">
+            <objects>
+                <viewController id="gxk-9q-7NX" customClass="ViewController" customModule="SimpleNavApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FPN-4r-CeT"/>
+                        <viewControllerLayoutGuide type="bottom" id="NQa-N7-KQV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3kP-Ei-ED0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2R-7e-Vpo">
+                                <rect key="frame" x="100" y="371" width="174" height="30"/>
+                                <state key="normal" title="Lead through me to get it"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48L-ZD-NrR">
+                                <rect key="frame" x="66" y="439" width="243" height="30"/>
+                                <state key="normal" title="Leag through me to get it and show"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jz2-Sm-jM3">
+                                <rect key="frame" x="69" y="106" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="UmK-DD-hID"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Jz2-Sm-jM3" firstAttribute="centerX" secondItem="3kP-Ei-ED0" secondAttribute="centerX" id="CXb-Co-ANb"/>
+                            <constraint firstItem="Jz2-Sm-jM3" firstAttribute="top" secondItem="FPN-4r-CeT" secondAttribute="bottom" constant="70" id="JTW-jB-FPh"/>
+                            <constraint firstItem="v2R-7e-Vpo" firstAttribute="leading" secondItem="3kP-Ei-ED0" secondAttribute="leading" constant="100" id="Jvq-Nc-tyN"/>
+                            <constraint firstItem="v2R-7e-Vpo" firstAttribute="leading" secondItem="48L-ZD-NrR" secondAttribute="leading" constant="34" id="NPE-nQ-aMs"/>
+                            <constraint firstItem="48L-ZD-NrR" firstAttribute="top" secondItem="v2R-7e-Vpo" secondAttribute="bottom" constant="38" id="U9A-yS-Wg4"/>
+                            <constraint firstItem="NQa-N7-KQV" firstAttribute="top" secondItem="48L-ZD-NrR" secondAttribute="bottom" constant="198" id="UrL-7R-s6c"/>
+                            <constraint firstItem="Jz2-Sm-jM3" firstAttribute="leading" secondItem="3kP-Ei-ED0" secondAttribute="leadingMargin" constant="51" id="mBY-gC-FAH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main Screen" id="Aey-dP-0cC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GTs-ni-J6V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1679" y="-1000"/>
+        </scene>
+        <!--Main Screen-->
+        <scene sceneID="dCi-5B-xHn">
+            <objects>
+                <viewController id="nlB-4w-zwR" customClass="ViewController" customModule="SimpleNavApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4ee-UC-BsG"/>
+                        <viewControllerLayoutGuide type="bottom" id="3JU-AJ-JBC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zjA-fe-LfY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qxe-h7-7Tj">
+                                <rect key="frame" x="67" y="134" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="ENQ-av-2wu"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pg-tD-YS3">
+                                <rect key="frame" x="100" y="371" width="174" height="30"/>
+                                <state key="normal" title="Lead through me to get it"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H44-7O-UQt">
+                                <rect key="frame" x="66" y="439" width="243" height="30"/>
+                                <state key="normal" title="Leag through me to get it and show"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qxe-h7-7Tj" firstAttribute="centerX" secondItem="zjA-fe-LfY" secondAttribute="centerX" id="9lW-62-rrc"/>
+                            <constraint firstItem="7pg-tD-YS3" firstAttribute="leading" secondItem="H44-7O-UQt" secondAttribute="leading" constant="34" id="QK2-th-fMs"/>
+                            <constraint firstItem="qxe-h7-7Tj" firstAttribute="top" secondItem="4ee-UC-BsG" secondAttribute="bottom" constant="70" id="Qja-jO-YuO"/>
+                            <constraint firstItem="H44-7O-UQt" firstAttribute="top" secondItem="7pg-tD-YS3" secondAttribute="bottom" constant="38" id="QvI-EE-oms"/>
+                            <constraint firstItem="3JU-AJ-JBC" firstAttribute="top" secondItem="H44-7O-UQt" secondAttribute="bottom" constant="198" id="vfv-OA-GfP"/>
+                            <constraint firstItem="7pg-tD-YS3" firstAttribute="leading" secondItem="zjA-fe-LfY" secondAttribute="leading" constant="100" id="x2N-6W-A6P"/>
+                            <constraint firstItem="qxe-h7-7Tj" firstAttribute="leading" secondItem="zjA-fe-LfY" secondAttribute="leadingMargin" constant="51" id="xdl-eY-40o"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main Screen" id="On8-at-bf1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wn-Zs-ubl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1678" y="84"/>
+        </scene>
+    </scenes>
+</document>
