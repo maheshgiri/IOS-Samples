@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3EE6471DBE11B200FC97C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EE6461DBE11B200FC97C3 /* AppDelegate.swift */; };
+		FC3EE6491DBE11B200FC97C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EE6481DBE11B200FC97C3 /* ViewController.swift */; };
+		FC3EE64C1DBE11B200FC97C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3EE64A1DBE11B200FC97C3 /* Main.storyboard */; };
+		FC3EE64E1DBE11B200FC97C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3EE64D1DBE11B200FC97C3 /* Assets.xcassets */; };
+		FC3EE6511DBE11B200FC97C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3EE64F1DBE11B200FC97C3 /* LaunchScreen.storyboard */; };
+		FC3EE65C1DBE11B200FC97C3 /* MashamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EE65B1DBE11B200FC97C3 /* MashamboTests.swift */; };
+		FC3EE6671DBE11B200FC97C3 /* MashamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EE6661DBE11B200FC97C3 /* MashamboUITests.swift */; };
+		FC3EE6771DBE1BEB00FC97C3 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EE6761DBE1BEB00FC97C3 /* WinnerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC3EE6581DBE11B200FC97C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3EE63B1DBE11B200FC97C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3EE6421DBE11B200FC97C3;
+			remoteInfo = Mashambo;
+		};
+		FC3EE6631DBE11B200FC97C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC3EE63B1DBE11B200FC97C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC3EE6421DBE11B200FC97C3;
+			remoteInfo = Mashambo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC3EE6431DBE11B200FC97C3 /* Mashambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mashambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3EE6461DBE11B200FC97C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC3EE6481DBE11B200FC97C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC3EE64B1DBE11B200FC97C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC3EE64D1DBE11B200FC97C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC3EE6501DBE11B200FC97C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC3EE6521DBE11B200FC97C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3EE6571DBE11B200FC97C3 /* MashamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashamboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3EE65B1DBE11B200FC97C3 /* MashamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashamboTests.swift; sourceTree = "<group>"; };
+		FC3EE65D1DBE11B200FC97C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3EE6621DBE11B200FC97C3 /* MashamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MashamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3EE6661DBE11B200FC97C3 /* MashamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MashamboUITests.swift; sourceTree = "<group>"; };
+		FC3EE6681DBE11B200FC97C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3EE6761DBE1BEB00FC97C3 /* WinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WinnerViewController.swift; path = ../WinnerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3EE6401DBE11B200FC97C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3EE6541DBE11B200FC97C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3EE65F1DBE11B200FC97C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3EE63A1DBE11B200FC97C3 = {
+			isa = PBXGroup;
+			children = (
+				FC3EE6451DBE11B200FC97C3 /* Mashambo */,
+				FC3EE65A1DBE11B200FC97C3 /* MashamboTests */,
+				FC3EE6651DBE11B200FC97C3 /* MashamboUITests */,
+				FC3EE6441DBE11B200FC97C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3EE6441DBE11B200FC97C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3EE6431DBE11B200FC97C3 /* Mashambo.app */,
+				FC3EE6571DBE11B200FC97C3 /* MashamboTests.xctest */,
+				FC3EE6621DBE11B200FC97C3 /* MashamboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3EE6451DBE11B200FC97C3 /* Mashambo */ = {
+			isa = PBXGroup;
+			children = (
+				FC3EE6761DBE1BEB00FC97C3 /* WinnerViewController.swift */,
+				FC3EE6461DBE11B200FC97C3 /* AppDelegate.swift */,
+				FC3EE6481DBE11B200FC97C3 /* ViewController.swift */,
+				FC3EE64A1DBE11B200FC97C3 /* Main.storyboard */,
+				FC3EE64D1DBE11B200FC97C3 /* Assets.xcassets */,
+				FC3EE64F1DBE11B200FC97C3 /* LaunchScreen.storyboard */,
+				FC3EE6521DBE11B200FC97C3 /* Info.plist */,
+			);
+			path = Mashambo;
+			sourceTree = "<group>";
+		};
+		FC3EE65A1DBE11B200FC97C3 /* MashamboTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3EE65B1DBE11B200FC97C3 /* MashamboTests.swift */,
+				FC3EE65D1DBE11B200FC97C3 /* Info.plist */,
+			);
+			path = MashamboTests;
+			sourceTree = "<group>";
+		};
+		FC3EE6651DBE11B200FC97C3 /* MashamboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC3EE6661DBE11B200FC97C3 /* MashamboUITests.swift */,
+				FC3EE6681DBE11B200FC97C3 /* Info.plist */,
+			);
+			path = MashamboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3EE6421DBE11B200FC97C3 /* Mashambo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3EE66B1DBE11B200FC97C3 /* Build configuration list for PBXNativeTarget "Mashambo" */;
+			buildPhases = (
+				FC3EE63F1DBE11B200FC97C3 /* Sources */,
+				FC3EE6401DBE11B200FC97C3 /* Frameworks */,
+				FC3EE6411DBE11B200FC97C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mashambo;
+			productName = Mashambo;
+			productReference = FC3EE6431DBE11B200FC97C3 /* Mashambo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC3EE6561DBE11B200FC97C3 /* MashamboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3EE66E1DBE11B200FC97C3 /* Build configuration list for PBXNativeTarget "MashamboTests" */;
+			buildPhases = (
+				FC3EE6531DBE11B200FC97C3 /* Sources */,
+				FC3EE6541DBE11B200FC97C3 /* Frameworks */,
+				FC3EE6551DBE11B200FC97C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3EE6591DBE11B200FC97C3 /* PBXTargetDependency */,
+			);
+			name = MashamboTests;
+			productName = MashamboTests;
+			productReference = FC3EE6571DBE11B200FC97C3 /* MashamboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC3EE6611DBE11B200FC97C3 /* MashamboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3EE6711DBE11B200FC97C3 /* Build configuration list for PBXNativeTarget "MashamboUITests" */;
+			buildPhases = (
+				FC3EE65E1DBE11B200FC97C3 /* Sources */,
+				FC3EE65F1DBE11B200FC97C3 /* Frameworks */,
+				FC3EE6601DBE11B200FC97C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC3EE6641DBE11B200FC97C3 /* PBXTargetDependency */,
+			);
+			name = MashamboUITests;
+			productName = MashamboUITests;
+			productReference = FC3EE6621DBE11B200FC97C3 /* MashamboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3EE63B1DBE11B200FC97C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Hemisphere;
+				TargetAttributes = {
+					FC3EE6421DBE11B200FC97C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FC3EE6561DBE11B200FC97C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC3EE6421DBE11B200FC97C3;
+					};
+					FC3EE6611DBE11B200FC97C3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FC3EE6421DBE11B200FC97C3;
+					};
+				};
+			};
+			buildConfigurationList = FC3EE63E1DBE11B200FC97C3 /* Build configuration list for PBXProject "Mashambo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC3EE63A1DBE11B200FC97C3;
+			productRefGroup = FC3EE6441DBE11B200FC97C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3EE6421DBE11B200FC97C3 /* Mashambo */,
+				FC3EE6561DBE11B200FC97C3 /* MashamboTests */,
+				FC3EE6611DBE11B200FC97C3 /* MashamboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3EE6411DBE11B200FC97C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3EE6511DBE11B200FC97C3 /* LaunchScreen.storyboard in Resources */,
+				FC3EE64E1DBE11B200FC97C3 /* Assets.xcassets in Resources */,
+				FC3EE64C1DBE11B200FC97C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3EE6551DBE11B200FC97C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3EE6601DBE11B200FC97C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3EE63F1DBE11B200FC97C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3EE6491DBE11B200FC97C3 /* ViewController.swift in Sources */,
+				FC3EE6471DBE11B200FC97C3 /* AppDelegate.swift in Sources */,
+				FC3EE6771DBE1BEB00FC97C3 /* WinnerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3EE6531DBE11B200FC97C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3EE65C1DBE11B200FC97C3 /* MashamboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3EE65E1DBE11B200FC97C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3EE6671DBE11B200FC97C3 /* MashamboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC3EE6591DBE11B200FC97C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3EE6421DBE11B200FC97C3 /* Mashambo */;
+			targetProxy = FC3EE6581DBE11B200FC97C3 /* PBXContainerItemProxy */;
+		};
+		FC3EE6641DBE11B200FC97C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC3EE6421DBE11B200FC97C3 /* Mashambo */;
+			targetProxy = FC3EE6631DBE11B200FC97C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC3EE64A1DBE11B200FC97C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3EE64B1DBE11B200FC97C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC3EE64F1DBE11B200FC97C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3EE6501DBE11B200FC97C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3EE6691DBE11B200FC97C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC3EE66A1DBE11B200FC97C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3EE66C1DBE11B200FC97C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mashambo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.Mashambo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC3EE66D1DBE11B200FC97C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Mashambo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.Mashambo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FC3EE66F1DBE11B200FC97C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MashamboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.MashamboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mashambo.app/Mashambo";
+			};
+			name = Debug;
+		};
+		FC3EE6701DBE11B200FC97C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MashamboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.MashamboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mashambo.app/Mashambo";
+			};
+			name = Release;
+		};
+		FC3EE6721DBE11B200FC97C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MashamboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.MashamboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mashambo;
+			};
+			name = Debug;
+		};
+		FC3EE6731DBE11B200FC97C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MashamboUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Unifieapp.MashamboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Mashambo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3EE63E1DBE11B200FC97C3 /* Build configuration list for PBXProject "Mashambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3EE6691DBE11B200FC97C3 /* Debug */,
+				FC3EE66A1DBE11B200FC97C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3EE66B1DBE11B200FC97C3 /* Build configuration list for PBXNativeTarget "Mashambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3EE66C1DBE11B200FC97C3 /* Debug */,
+				FC3EE66D1DBE11B200FC97C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC3EE66E1DBE11B200FC97C3 /* Build configuration list for PBXNativeTarget "MashamboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3EE66F1DBE11B200FC97C3 /* Debug */,
+				FC3EE6701DBE11B200FC97C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC3EE6711DBE11B200FC97C3 /* Build configuration list for PBXNativeTarget "MashamboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3EE6721DBE11B200FC97C3 /* Debug */,
+				FC3EE6731DBE11B200FC97C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC3EE63B1DBE11B200FC97C3 /* Project object */;
+}
