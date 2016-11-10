@@ -25,6 +25,10 @@ class MainVC: UIViewController,UITableViewDelegate,UITableViewDataSource,NSFetch
         attemptFetchResults()
     }
 
+    @IBAction func segmentChange(_ sender: UISegmentedControl) {
+        attemptFetchResults()
+        tableView.reloadData()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -62,13 +66,41 @@ class MainVC: UIViewController,UITableViewDelegate,UITableViewDataSource,NSFetch
         return 0
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let objs=fetchedController.fetchedObjects ,objs.count>0{
+            let item=objs[indexPath.row]
+           performSegue(withIdentifier: "itemsDetailsVC", sender: item)
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+      if  segue.identifier == "itemsDetailsVC"{
+        if let destination=segue.destination as? DetailsViewController{
+            if let item=sender as? Item {
+                destination.editToItem=item
+            }
+        }
+        }
+    }
+    
+    
     
     func attemptFetchResults (){
         //create one fetch request for fetching NSManagedObject form Core Data
         let itemFetchRequest:NSFetchRequest<Item>=Item.fetchRequest()
         //to sort date wise
-        let sortDate=NSSortDescriptor(key: "created", ascending: true)
-        itemFetchRequest.sortDescriptors=[sortDate]
+        let sortDate=NSSortDescriptor(key: "created", ascending: false)
+        let sortPrice=NSSortDescriptor(key: "price", ascending: true)
+        let sortTitle=NSSortDescriptor(key: "title", ascending: true)
+        if sortController.selectedSegmentIndex == 0{
+            itemFetchRequest.sortDescriptors=[sortDate]
+        }else if sortController.selectedSegmentIndex == 1{
+            itemFetchRequest.sortDescriptors=[sortPrice]
+        }else if sortController.selectedSegmentIndex == 2{
+            itemFetchRequest.sortDescriptors=[sortTitle]
+        }
+        
+        
        //handle request to fetchController to fetch results
         let fetchedController=NSFetchedResultsController(fetchRequest: itemFetchRequest, managedObjectContext: context, sectionNameKeyPath: nil, cacheName: nil)
         self.fetchedController=fetchedController
